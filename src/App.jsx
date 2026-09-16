@@ -830,7 +830,6 @@ useEffect(() => {
 
   const saveSelections = async (selections) => {
   try {
-    console.log("CURRENT USER:", user);
     const response = await fetch('https://personal-powers-backend.onrender.com/api/selections', {
       method: 'POST',
       headers: {
